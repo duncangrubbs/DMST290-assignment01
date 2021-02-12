@@ -7,3 +7,4 @@ Plain and simple, no need to rock the boat.
 - A rather nice (in my biased opinion) usage of CSS grid, including
   - Media query handling of smaller screens
   - Smooth transitions from centered column to right-skewed with a left gutter (to hold a nav I never switched over)
+- Everyone's favorite feature to hate: smooth scrolling
