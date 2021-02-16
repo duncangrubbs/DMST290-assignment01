@@ -87,6 +87,11 @@ img.inset.right {
 }
 header {
 	grid-area: header;
+  position: sticky;
+	top: 0; /* Only relevant to stickyness */
+  background: #f6f9fa;
+  padding: 0 16px 4px 16px;
+	align-self: center;
 }
 header h1 {
 	margin: 0;
@@ -118,6 +123,7 @@ header.vertical nav li {
 /* Main area */
 main {
 	grid-area: main;
+  overflow: auto;
 }
 
 main > * {
@@ -126,6 +132,7 @@ main > * {
 
 #map {
 	height: 30rem;
+  z-index: -1;
 }
 
 /* Footer */
