@@ -164,6 +164,9 @@ footer img {
 	}
 	header {
 		text-align: center;
+    position: inherit;
+    background: none;
+    padding: 0;
 	}
 }
 
