@@ -8,10 +8,18 @@ html, body {
 	box-sizing: border-box;
 }
 
+:root {
+  --background-color: #fcfcfc;
+  --text-bold-color: #222;
+  --text-normal-color: #333;
+}
+
+::selection { background: #FFD100; }
+
 /* Overall styles */
 body {
-	background-color: #f6f9fa;
-	color: #333;
+	background-color: var(--background-color);
+	color: var(--text-normal-color);
 	font-size: 16px;
 	line-height: 1.75;
 	font-family: Arial, sans-serif;
@@ -20,7 +28,7 @@ body {
 h1, h2, h3, h4 {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 800;
-  color: #222;
+  color: var(--text-bold-color);
 }
 h1 {
 	font-size: 4rem;
@@ -98,7 +106,7 @@ header {
 	grid-area: header;
   position: sticky;
 	top: 0; /* Only relevant to stickyness */
-  background: #f6f9fa;
+  background: var(--background-color);;
   padding: 0 0 4px 0;
 	align-self: center;
 }
