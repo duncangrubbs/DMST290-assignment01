@@ -13,3 +13,4 @@ Plain and simple, no need to rock the boat.
 1. I changed the font, font color, as well as the background color. I did this for partially because I thought it looked better, but I also wanted to improve the contrast between the background and the text for better readability.
 2. I rouned the corners of images. I just think this looks nicer.
 3. I made the nav bar sticky so that wherever you are in your reading you can easily jump to a new spot.
+4. I changed the text highlight color to be Rochester yellow and made the main image fades in just for fun!
