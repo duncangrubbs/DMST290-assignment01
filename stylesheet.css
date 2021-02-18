@@ -90,7 +90,7 @@ header {
   position: sticky;
 	top: 0; /* Only relevant to stickyness */
   background: #f6f9fa;
-  padding: 0 16px 4px 16px;
+  padding: 0 0 4px 0;
 	align-self: center;
 }
 header h1 {
