@@ -41,6 +41,15 @@ a:hover {
 	color: #0b8bc6;
 }
 
+section::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -130px; 
+  height: 130px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
 img {
 	max-width: 100%;
 	max-height: 100%;
